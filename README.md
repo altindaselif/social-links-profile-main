@@ -20,7 +20,7 @@ This is a Social Links Profile component that you can use on your websites.
 
 ### Links
 
-- Live Site URL: [Social Links Profile](https://altindaselif.github.io/blog-preview-card-main/)
+- Live Site URL: [Social Links Profile](https://altindaselif.github.io/social-links-profile-main/)
 
 ## My process
 
