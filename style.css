@@ -1,9 +1,35 @@
 :root {
-  --green: hsl(75, 94%, 57%);
-  --white: hsl(0, 0%, 100%);
-  --grey-700: hsl(0, 0%, 20%);
-  --grey-800: hsl(0, 0%, 12%);
-  --grey-900: hsl(0, 0%, 8%);
+  /* Colors */
+  --grey-900: #141414;
+  --grey-800: #1f1f1f;
+  --grey-700: #333;
+  --green: #c4f82a;
+  --white: #fff;
+
+  /* Typography - Font Family */
+  --font-family: "Inter", sans-serif;
+  --letter-spacing: 0;
+  --line-height: 1.5;
+
+  /* Text Preset 1 */
+  --tp-1-size: 2.4rem;
+  --tp-1-width: 700;
+
+  /* Text Preset 2 */
+  --tp-2-size: 1.4rem;
+  --tp-2-weight: 400;
+
+  /* Text Preset 2 Bold */
+  --tp-2b-size: 1.4rem;
+  --tp-2b-weight: 700;
+
+  /* Spacing */
+  --spacing-500: 4rem;
+  --spacing-300: 2.4rem;
+  --spacing-200: 1.6rem;
+  --spacing-150: 1.2rem;
+  --spacing-100: 0.8rem;
+  --spacing-50: 0.4rem;
 }
 
 * {
@@ -20,12 +46,16 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
-  font-size: 1.2rem;
+  font-family: var(--font-family);
+  letter-spacing: var(--letter-spacing);
+  line-height: var(--line-height);
+  font-size: var(--tp-2b-size);
+  font-weight: var(--tp-2b-weight);
   color: var(--white);
   background-color: var(--grey-900);
   text-align: center;
   height: 100vh;
+  padding: var(--spacing-300);
 
   display: flex;
   align-items: center;
@@ -33,49 +63,49 @@ body {
 }
 
 .social-container {
-  width: 32rem;
+  width: 100%;
+  max-width: 38.4rem;
   background-color: var(--grey-800);
-  border-radius: 1rem;
-  padding: 4rem 2rem;
+  border-radius: 1.2rem;
+  padding: var(--spacing-500);
 }
 
 .social-img {
-  width: 8rem;
+  width: 8.8rem;
   border-radius: 50%;
-  margin-bottom: 2rem;
+  margin-bottom: var(--spacing-300);
 }
 
 .social-name {
-  font-size: 2.2rem;
-  letter-spacing: 0.05rem;
-  margin-bottom: 1rem;
+  font-size: var(--tp-1-size);
+  font-weight: var(--tp-1-weight);
 }
 
 .social-location {
-  font-weight: 600;
   color: var(--green);
-  margin-bottom: 2.5rem;
+  margin-bottom: var(--spacing-300);
 }
 
 .social-info {
-  margin-bottom: 2rem;
+  font-size: var(--tp-2-size);
+  font-weight: var(--tp-2-weight);
+  margin-bottom: var(--spacing-300);
 }
 
 .social-links {
   list-style: none;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--spacing-100);
 }
 
 .social-link {
   display: block;
-  font-weight: 700;
   text-decoration: none;
   color: var(--white);
   background-color: var(--grey-700);
-  border-radius: 1rem;
-  padding: 1.5rem 0;
+  border-radius: 0.8rem;
+  padding: var(--spacing-150);
 }
 
 .social-link:hover,
