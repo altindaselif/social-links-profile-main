@@ -8,12 +8,11 @@
 
   /* Typography - Font Family */
   --font-family: "Inter", sans-serif;
-  --letter-spacing: 0;
   --line-height: 1.5;
 
   /* Text Preset 1 */
   --tp-1-size: 2.4rem;
-  --tp-1-width: 700;
+  --tp-1-weight: 700;
 
   /* Text Preset 2 */
   --tp-2-size: 1.4rem;
@@ -47,7 +46,6 @@ html {
 
 body {
   font-family: var(--font-family);
-  letter-spacing: var(--letter-spacing);
   line-height: var(--line-height);
   font-size: var(--tp-2b-size);
   font-weight: var(--tp-2b-weight);
