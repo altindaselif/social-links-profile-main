@@ -4,8 +4,8 @@ This is a Social Links Profile component that you can use on your websites.
 
 ## Screenshots
 
-- **Desktop:** ![Desktop Screenshot](desktop-screenshot.png)
-- **Mobile:** ![Mobile Screenshot](mobile-screenshot.png)
+- **Desktop:** [Desktop Screenshot](desktop-screenshot.png)
+- **Mobile:** [Mobile Screenshot](mobile-screenshot.png)
 
 ## Links
 
