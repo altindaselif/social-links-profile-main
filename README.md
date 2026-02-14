@@ -9,8 +9,8 @@ This is a Social Links Profile component that you can use on your websites.
 
 ## Links
 
-- **GitHub Repository:** [View Code](https://github.com/altindaselif/social-links-profile-main)
-- **Live Demo:** [View Live Site](https://altindaselif.github.io/social-links-profile-main/)
+- **GitHub Repository:** [View Code](https://github.com/altindaselif/3-social-links-profile-main)
+- **Live Demo:** [View Live Site](https://altindaselif.github.io/3-social-links-profile-main/)
 
 ## Built With
 
